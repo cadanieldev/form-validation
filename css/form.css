@@ -11,19 +11,102 @@
   align-items: center;
 }
 
+
+
 .form-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: -80px;
+  gap: 30px;
 }
 
 .form input{
+  width: 370px;
+  height: 60px;
+  background: #343F52;
+  border: none;
+  border-radius: 5px;
   display: block;
+}
+
+.form input + input {
+  margin-top: 20px;
+}
+
+.form input::placeholder {
+  padding: 5px;
 }
 
 .form-content h1 {
   font-size: 48px;
   font-weight: 600;
   color: #ffffff;
+  background: #010B1C;
+}
+
+.form-content span {
+  font-size: .875rem;
+  margin: 10px 0px 10px 0px;
+  display: flex;
+  align-items: center;
+  color: #919499;
+}
+
+.form-content .text-blue {
+  color: #155FE8;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.text-blue:hover {
+  color: #188FE8;
+}
+
+/* .deco::before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  background: #D9D9D9;
+  display: inline-block;
+  margin-right: 10px;
+} */
+
+.deco input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  appearance: none;
+  background: #D9D9D9;
+  border-radius: 5px;
+  border: none;
+}
+
+.deco input[type="checkbox"]:checked {
+  background: #155FE8; /* Cor de fundo quando o checkbox está marcado */
+}
+
+.deco {
+  color: #919499;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+button {
+  font-size: 20px;
+  color: #ffffff;
+  background: #155FE8;
+  border: none;
+  width: 370px;
+  height: 60px;
+  border-radius: 5px;
+  font-weight: 600;
+  margin: 20px 0px;
+  display: block;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #131FE8;
 }
