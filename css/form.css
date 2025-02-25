@@ -1,0 +1,29 @@
+.bg-form {
+  background: #010B1C;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,.8);
+  max-width: 1100px;
+  height: 600px;
+  margin: 100px auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -80px;
+}
+
+.form input{
+  display: block;
+}
+
+.form-content h1 {
+  font-size: 48px;
+  font-weight: 600;
+  color: #ffffff;
+}
