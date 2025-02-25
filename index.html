@@ -22,23 +22,23 @@
       <div class="form-content">
         <h1>Crie uma conta</h1>
         <span>Já possui uma conta? <span class="text-blue">Faça Login</span></span>
-        <form class="form" action="">
-
-          <input type="text" id="name" name="name" placeholder="Nome:">
-
-          <input type="email" id="email" name="email" placeholder="Email:">
-
-          <input type="email" id="email" name="email" placeholder="Telefone:">
-
+        <form class="form">
+          <div class="labei">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email">
+          <label for="phone">Celular</label>
+          <input type="tel" id="phone" name="phone" placeholder="12345-6789">
+          <label for="cpf">CPF:</label>
           <input type="text" name="cpf" id="cpf" placeholder="000.000.000-00">
-
+        </div>
           <div class="deco">
             <input type="checkbox" id="termos" name="termos">
             <label for="termos">Aceito os <span class="text-blue underline">termos e condições</span></label>
           </div>
+          <button type="submit">CRIAR CONTA</button>
         </form>
         <!-- <span class="deco">Aceito os <span class="text-blue">termos e condições</span></span> -->
-        <button type="submit">CRIAR CONTA</button>
+
       </div>
     </div>
   </div>

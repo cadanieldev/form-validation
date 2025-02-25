@@ -1,9 +1,9 @@
 .bg-form {
-  background: #010B1C;
+  background: #010b1c;
   border-radius: 10px;
-  box-shadow: 0 2px 4px rgba(0,0,0,.8);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
   max-width: 1100px;
-  height: 600px;
+  height: 650px;
   margin: 100px auto;
   width: 100%;
   display: flex;
@@ -11,40 +11,40 @@
   align-items: center;
 }
 
-
-
 .form-container {
   display: flex;
   gap: 30px;
 }
 
-.form input{
+.form input {
   width: 370px;
   height: 60px;
-  background: #343F52;
+  background: #343f52;
   border: none;
   border-radius: 5px;
   display: block;
-}
-
-.form input + input {
-  margin-top: 20px;
+  font-size: 20px;
 }
 
 .form input::placeholder {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   padding: 5px;
+}
+
+.labei label {
+  display: inline-block;
+  margin: 5px 0px 10px 0px;
 }
 
 .form-content h1 {
   font-size: 3rem;
   font-weight: 600;
   color: #ffffff;
-  background: #010B1C;
+  background: #010b1c;
 }
 
 .form-content span {
-  font-size: .875rem;
+  font-size: 0.875rem;
   margin: 10px 0px 10px 0px;
   display: flex;
   align-items: center;
@@ -52,18 +52,22 @@
 }
 
 .form-content .text-blue {
-  color: #155FE8;
+  color: #155fe8;
   cursor: pointer;
   margin-left: 5px;
   display: inline-block;
 }
 
+.form {
+  color: #fff;
+}
+
 .underline {
-  border-bottom: 2px solid ;
+  border-bottom: 2px solid;
 }
 
 .text-blue:hover {
-  color: #188FE8;
+  color: #188fe8;
 }
 
 /* .deco::before {
@@ -83,14 +87,14 @@
   height: 20px;
   display: inline-block;
   appearance: none;
-  background: #D9D9D9;
+  background: #d9d9d9;
   border-radius: 5px;
   border: none;
   margin-right: 10px;
 }
 
 .deco input[type="checkbox"]:checked {
-  background: #155FE8; /* Cor de fundo quando o checkbox está marcado */
+  background: #155fe8; /* Cor de fundo quando o checkbox está marcado */
 }
 
 .deco {
@@ -104,7 +108,7 @@
 button {
   font-size: 20px;
   color: #ffffff;
-  background: #155FE8;
+  background: #155fe8;
   border: none;
   width: 370px;
   height: 60px;
@@ -116,7 +120,7 @@ button {
 }
 
 button:hover {
-  background-color: #131FE8;
+  background-color: #131fe8;
 }
 
 @media (max-width: 800px) {
@@ -141,4 +145,8 @@ button:hover {
   .form-content h1 {
     font-size: 2.25rem;
   }
+}
+
+.form-img {
+  margin: 30px 10px 0px 0px;
 }
