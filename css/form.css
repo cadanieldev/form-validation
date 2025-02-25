@@ -37,7 +37,7 @@
 }
 
 .form-content h1 {
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 600;
   color: #ffffff;
   background: #010B1C;
@@ -117,4 +117,28 @@ button {
 
 button:hover {
   background-color: #131FE8;
+}
+
+@media (max-width: 800px) {
+  .bg-form {
+    max-width: 600px;
+  }
+  img {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .bg-form {
+    max-width: 400px;
+  }
+  .form input {
+    max-width: 300px;
+  }
+  button {
+    max-width: 300px;
+  }
+  .form-content h1 {
+    font-size: 2.25rem;
+  }
 }
