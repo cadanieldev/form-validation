@@ -123,7 +123,7 @@ button:hover {
   background-color: #131fe8;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   .bg-form {
     max-width: 600px;
   }
@@ -151,6 +151,8 @@ button:hover {
   margin: 30px 10px 0px 0px;
 }
 
+/* CPF */
+
 input.valido {
   border-color:  green;
 }
@@ -167,5 +169,26 @@ input.erro {
 }
 
 .erro-text.ativar {
+  display: block;
+}
+
+/* EMAIL */
+
+input.valido {
+  border-color: green;
+}
+
+input.invalido {
+  border-color: red;
+}
+
+.erro-email {
+  display: none;
+  color: red;
+  font-size: .875rem;
+  margin: 0px;
+}
+
+.erro-email.ativo {
   display: block;
 }
