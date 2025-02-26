@@ -151,3 +151,21 @@ button:hover {
   margin: 30px 10px 0px 0px;
 }
 
+input.valido {
+  border-color:  green;
+}
+
+input.erro {
+  border-color:  red;
+}
+
+.erro-text {
+  display: none;
+  font-size: .875rem;
+  color: red;
+  margin: 0px;
+}
+
+.erro-text.ativar {
+  display: block;
+}
