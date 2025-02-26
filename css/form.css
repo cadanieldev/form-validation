@@ -119,6 +119,15 @@ button {
   cursor: pointer;
 }
 
+footer p {
+  text-align: center;
+  color: #919499;
+}
+
+footer a {
+  color: #919499;
+}
+
 button:hover {
   background-color: #131fe8;
 }
